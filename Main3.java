@@ -16,7 +16,7 @@ public class Main3 {
         int[] res = new int[arr.length];
         Arrays.fill(res, val);
         for (int i = 0, j = 0; i < arr.length; i++) {
-            if (arr[i] != val){
+            if (arr[i] != val) {
                 res[j] = arr[i];
                 j++;
             }
