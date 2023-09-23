@@ -19,6 +19,7 @@ n = 5 -> 15
             boolean k = false;
             for(int j = 2; j * j <= i; j++) {
                 k = (i % j == 0);
+//                System.out.println(i + " " + j + " " + k);
                 if(k) break;
             }
             if (!k) System.out.println(i);

@@ -11,11 +11,11 @@ public class Printer {
         int itresume_res = ans.countNTriangle(n);     
         System.out.println(itresume_res);
     }*/
-/*  public static void main(String[] args) {    
+    public static void main(String[] args) {    
         Answer ans = new Answer();
         ans.printPrimeNums();
-    }*/
-    public static void main(String[] args) { 
+    }
+/*    public static void main(String[] args) { 
         int a = 0;
         char op = ' ';
         int b = 0;
@@ -32,5 +32,5 @@ public class Printer {
         Calculator calculator = new Calculator();
         int result = calculator.calculate(op, a, b);
         System.out.println(result);
-    }
+    }*/
 }
